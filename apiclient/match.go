@@ -302,7 +302,7 @@ type MatchReference struct {
 // GetMatchlistOptions provides filtering options for GetMatchlist. The zero
 // value means that the option will not be used in filtering.
 type GetMatchlistOptions struct {
-	Queue      []queue.Queue       `json:"queue"`
+	Queue      []int               `json:"queue"`
 	Season     []season.Season     `json:"season"`
 	Champion   []champion.Champion `json:"champion"`
 	BeginTime  *time.Time          `json:"beginTime"`
