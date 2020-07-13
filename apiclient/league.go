@@ -3,9 +3,9 @@ package apiclient
 import (
 	"context"
 	"fmt"
-	"github.com/yuhanfang/riot/constants/queue"
-	"github.com/yuhanfang/riot/constants/region"
-	"github.com/yuhanfang/riot/constants/tier"
+	"github.com/ChoiKyubum/riot/constants/queue"
+	"github.com/ChoiKyubum/riot/constants/region"
+	"github.com/ChoiKyubum/riot/constants/tier"
 )
 
 type LeagueList struct {

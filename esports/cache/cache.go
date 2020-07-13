@@ -11,9 +11,9 @@ import (
 
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/datastore"
-	"github.com/yuhanfang/riot/apiclient"
-	"github.com/yuhanfang/riot/esports"
-	"github.com/yuhanfang/riot/esports/league"
+	"github.com/ChoiKyubum/riot/apiclient"
+	"github.com/ChoiKyubum/riot/esports"
+	"github.com/ChoiKyubum/riot/esports/league"
 )
 
 // Cache represents a copy of the esports API data stored on Google Cloud. It

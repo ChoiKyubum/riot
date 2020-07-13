@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yuhanfang/riot/constants/region"
+	"github.com/ChoiKyubum/riot/constants/region"
 )
 
 func (c *client) GetThirdPartyCodeByID(ctx context.Context, r region.Region, summonerID string) (string, error) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yuhanfang/riot/constants/language"
+	"github.com/ChoiKyubum/riot/constants/language"
 )
 
 type ItemList struct {

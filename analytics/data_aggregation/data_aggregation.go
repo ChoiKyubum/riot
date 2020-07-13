@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yuhanfang/riot/apiclient"
-	"github.com/yuhanfang/riot/constants/queue"
-	"github.com/yuhanfang/riot/constants/region"
+	"github.com/ChoiKyubum/riot/apiclient"
+	"github.com/ChoiKyubum/riot/constants/queue"
+	"github.com/ChoiKyubum/riot/constants/region"
 )
 
 // Match is the serialized format of match data. Match or Timeline may be nil

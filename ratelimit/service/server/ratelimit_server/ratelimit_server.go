@@ -1,6 +1,6 @@
 // Launches a ratelimit server on the specified port. See documentation in
-// github.com/yuhanfang/riot/ratelimit/service/server for details on server
-// interface. See github.com/yuhanfang/riot/ratelimit/service/client for a
+// github.com/ChoiKyubum/riot/ratelimit/service/server for details on server
+// interface. See github.com/ChoiKyubum/riot/ratelimit/service/client for a
 // reference client implementation.
 //
 // Usage example:
@@ -13,7 +13,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/yuhanfang/riot/ratelimit/service/server"
+	"github.com/ChoiKyubum/riot/ratelimit/service/server"
 )
 
 var port = flag.Int("port", 8080, "server port")

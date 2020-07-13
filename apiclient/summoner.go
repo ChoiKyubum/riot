@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yuhanfang/riot/constants/region"
+	"github.com/ChoiKyubum/riot/constants/region"
 )
 
 type Summoner struct {

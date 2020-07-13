@@ -2,5 +2,5 @@
 // which aren't generally supported by datastores.
 package maps
 
-//go:generate go run $GOPATH/src/github.com/yuhanfang/riot/maps/generator/generator.go --package maps --key string --value string
-//go:generate go run $GOPATH/src/github.com/yuhanfang/riot/maps/generator/generator.go --package maps --key string --value bool
+//go:generate go run $GOPATH/src/github.com/ChoiKyubum/riot/maps/generator/generator.go --package maps --key string --value string
+//go:generate go run $GOPATH/src/github.com/ChoiKyubum/riot/maps/generator/generator.go --package maps --key string --value bool

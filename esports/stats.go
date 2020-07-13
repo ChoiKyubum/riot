@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/yuhanfang/riot/apiclient"
-	"github.com/yuhanfang/riot/constants/region"
+	"github.com/ChoiKyubum/riot/apiclient"
+	"github.com/ChoiKyubum/riot/constants/region"
 )
 
 func (c Client) GetGameStats(ctx context.Context, region region.Region, gameID int64, gameHash string) (*apiclient.Match, error) {

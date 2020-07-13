@@ -11,13 +11,13 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/yuhanfang/riot/apiclient"
-	"github.com/yuhanfang/riot/cachedclient"
-	"github.com/yuhanfang/riot/cachedclient/google"
-	"github.com/yuhanfang/riot/constants/champion"
-	"github.com/yuhanfang/riot/constants/queue"
-	"github.com/yuhanfang/riot/constants/region"
-	"github.com/yuhanfang/riot/ratelimit"
+	"github.com/ChoiKyubum/riot/apiclient"
+	"github.com/ChoiKyubum/riot/cachedclient"
+	"github.com/ChoiKyubum/riot/cachedclient/google"
+	"github.com/ChoiKyubum/riot/constants/champion"
+	"github.com/ChoiKyubum/riot/constants/queue"
+	"github.com/ChoiKyubum/riot/constants/region"
+	"github.com/ChoiKyubum/riot/ratelimit"
 )
 
 const (

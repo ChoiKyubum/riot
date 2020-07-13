@@ -23,10 +23,10 @@ import (
 
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/datastore"
-	"github.com/yuhanfang/riot/esports"
-	"github.com/yuhanfang/riot/esports/cache"
-	"github.com/yuhanfang/riot/esports/league"
-	"github.com/yuhanfang/riot/esports/tournaments"
+	"github.com/ChoiKyubum/riot/esports"
+	"github.com/ChoiKyubum/riot/esports/cache"
+	"github.com/ChoiKyubum/riot/esports/league"
+	"github.com/ChoiKyubum/riot/esports/tournaments"
 )
 
 var (

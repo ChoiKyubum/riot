@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/yuhanfang/riot/constants/language"
-	"github.com/yuhanfang/riot/constants/region"
-	"github.com/yuhanfang/riot/esports/league"
-	"github.com/yuhanfang/riot/types"
+	"github.com/ChoiKyubum/riot/constants/language"
+	"github.com/ChoiKyubum/riot/constants/region"
+	"github.com/ChoiKyubum/riot/esports/league"
+	"github.com/ChoiKyubum/riot/types"
 )
 
 type Leagues struct {

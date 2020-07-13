@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/yuhanfang/riot/esports/league"
+	"github.com/ChoiKyubum/riot/esports/league"
 )
 
 func ExampleGameDetailsEndToEnd() {

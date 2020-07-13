@@ -11,14 +11,14 @@ import (
 
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/datastore"
-	"github.com/yuhanfang/riot/analytics/data_aggregation"
-	"github.com/yuhanfang/riot/analytics/data_aggregation/bigquery_aggregator"
-	"github.com/yuhanfang/riot/apiclient"
-	"github.com/yuhanfang/riot/cachedclient"
-	"github.com/yuhanfang/riot/cachedclient/google"
-	"github.com/yuhanfang/riot/constants/queue"
-	"github.com/yuhanfang/riot/constants/region"
-	"github.com/yuhanfang/riot/ratelimit"
+	"github.com/ChoiKyubum/riot/analytics/data_aggregation"
+	"github.com/ChoiKyubum/riot/analytics/data_aggregation/bigquery_aggregator"
+	"github.com/ChoiKyubum/riot/apiclient"
+	"github.com/ChoiKyubum/riot/cachedclient"
+	"github.com/ChoiKyubum/riot/cachedclient/google"
+	"github.com/ChoiKyubum/riot/constants/queue"
+	"github.com/ChoiKyubum/riot/constants/region"
+	"github.com/ChoiKyubum/riot/ratelimit"
 )
 
 func main() {
